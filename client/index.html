@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href = "style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="https://kit.fontawesome.com/2b69a01ccc.js" crossorigin="anonymous"></script>
+    <title>Quest</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="loader"></div>
+    </div>
+    <div id="app">
+      <div id="title"><i class="fa-solid fa-shapes"></i> Quest</div>
+      <div class="qna_container">
+        <div id="question_container">Analyse why more women may enter the labour force.[8]</div>
+        <form>
+          <textarea name="prompt" rows="10" cols="1" placeholder="Type your answer.."></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="select-topic-container">
+          <label id="select-label">Select Topic</label>
+          <select id="select-topic">
+            <option value="1">1: The Basic Economic Problem</option>
+            <option value="2">2A: The Allocation of Resources</option>
+            <option value="3">2B: The Allocation of Resources</option>
+            <option value="4">3A: Microeconomic decision makers (employees, trade unions)</option>
+            <option value="5">3B: Microeconomic decision makers (private firms)</option>
+            <option value="6">4: The Government and the Macroeconomy</option>
+            <option value="7">5: International Trade and Globalisation</option>
+            <option value="8">6: Development Economics</option>
+          </select>
+        </div>
+        <div id="arrow-right"><i class="fa-solid fa-caret-right fa-2xl"></i></div>
+        <div id="feedback-container"></div>
+        
+
+      </div>
+      <div id="chat_container"></div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
