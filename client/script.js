@@ -113,10 +113,15 @@ const handleSubmit = async(e)=>{
         M: 8 Marks  
         Q/A: Analyse how firms can benefit from specialisation. / Workers are more productive since they become more skilled, which leads to the production process being more effecient, leading to the production of a greater amount of g/s which increases the profit of firms. Time is saved  in the production process. In addition, labour productivity is one of  the factors leading to economies of scales which leads to cost savings for the firm.
         M: 7 Marks  
-        Q/A: Discuss whether or not a worker would benefit by specialising. / On the one hand, the workers talents are made full use of. They can become more skilled in a certain job, which would make them more productive and could increase their wages. In the long run this could increase their standard of living. Due to becoming really skilled they could get more promotions in their job, and achieve a higher income. However on the other hand, their work may become boring and repetitive causing them to lose motivation. Specialisation can also cause many workers to be replaced by machines. Workers also become less flexible as they are only skilled in one area and lose their skills in all other areas, this also means the worker may not enter another industry without being re-trained causing labour immobility.
-        M: 8 Marks  
-        Q/A:  Discuss whether or not older workers are paid more than younger workers. / Older workers have more experience and thus have more developed skill and will be more productive. Their length of service is much longer. So there may be greater demand for them and thus firms are willing to pay for their labour at a higher wage rate. Furthermore there may be a difference in the cost of living, older workers need to pay for a lot more medical checkups for example, and thus their wages must compensate for this. On the other hand, there may a shortage of younger workers in a few sectors (such as athletic industries) and thus firms are willing to pay for their labour at a higher wage rate. Furthermore older workers may face discrimination at work because of their age leading them to obtain lower wages.
-        M: 7 Marks  
+        Q/A: Discuss whether firms benefit from specialisation / Yes.
+        M: 0 Mark 
+        Q/A: Discuss whether or not a firm should have growth as its main objective / No, firms main objective are usually to gain profit–if they focus on growth they may forgo their profits.
+        M: 1 Mark
+        Q/A: Discuss whether or not a country with high wage rates will have a high unemployment rate. / High wage rates could mean that workers are motivated to work harder which leads to greater productivity and thus greater demand for labour. Furthermore higher wages would mean that consumers have a higher purchasing power and thus aggregate demand for g/s rises, so demand for labour will also rise. 
+        M: 4 Marks 
+        Q/A: Discuss whether or not countries specialising benefits consumers. / Specialisation in the context of countries consist of focusing on a narrow range of goods and services, usually derived from their factor endowment. On the one hand, by specialising countries may be able to increase the number and range of output as they use their absolute advantage, hence the quality of life of consumers will increase. Furthermore, as they specialise countries may gain more expertise in a producing a certain good/service and produce higher quality ouput for consumers to purchase.
+        M: 2 Marks
+        
         Q/A: ${questionContainer.innerHTML} / ${data.get('prompt')}
         M:`
     })
